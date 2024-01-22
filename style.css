@@ -63,7 +63,7 @@ h2{ margin-bottom: 4rem;
     animation: reveal linear both;
     animation-timeline: view();
     animation-range: entry 50% cover 50%;
-    color: #4362f8;
+    color: #365486;
 
 }
 
@@ -369,7 +369,7 @@ ul{
 
 
 footer {
-    background-color: #4362f8;
+    background-color: #365486;
     height: 400px;
     width: 100%;
 }
