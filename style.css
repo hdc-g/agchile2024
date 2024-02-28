@@ -329,6 +329,30 @@ ul{
 }
 
 
+
+.sponsorslong-container {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 1px solid red;
+    left: 50%;
+    
+} 
+
+
+.sponsorslong-container div{
+    height: 100%;
+    transform: scale(0.7);
+    flex: 1;
+    min-width: 250px;
+   
+     border: 1px solid red; 
+}
+
+
 /* .speaker-image:hover .speaker-description{
     opacity: 1;
 } */
@@ -635,6 +659,10 @@ footer h2, footer p {
       .sponsors-container  {
         max-width:  1024px;
         
+    }
+
+    .sponsorslong-container {
+        max-width: 768px;
     }
   }
   
