@@ -36,7 +36,6 @@ header {
 
 .math-letters{
     font-family: "Computer Modern";
-    src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunbxo.otf');
     font-style: italic;
 }
 
