@@ -74,15 +74,15 @@ section {
 
 .topnav {
    margin: 0;
-   padding: 0;
+  
 
   }
   
   .topnav a {
     display: inline-block;
-    color: #365486;
-    padding: min(2vw, 15px) ; 
+    color: #365486; 
     transition: all 0.15s;
+    text-decoration: none;
     font-size: xx-large;
 
 
