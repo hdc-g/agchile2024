@@ -9,20 +9,31 @@
     <script defer src="app.js"></script>
 </head>
 
+
+
 <body>
 
 <div class="wrapper">
-        <header>
+   
+    <header>
             <img src="imgs/s1.png" class="s1">
             <img src="imgs/s2.png" class="s2">
             <h1 class="title">Arithmetic and <span class="math-letters">p</span>-adic geometry in Chile</h1>
+        
         </header>
 
-
+     
     
     <section class="about container section">
+        <button class="topnav" id="myTopnav">
+            <!-- <a href="" >About</a> -->
+            <!-- <a href="" >Summer School</a>
+            <a href="" >Conference</a> -->
+            <a href="https://forms.gle/hbSJipZR7PyiiByK8" >Registrations are open!</a>
+         </button>
 
         <h2 class="about__title">About the event</h2>
+        
             <p class="about__description">
                 On <b>December 2024</b> the event Arithmetic Geometry in Chile will be held at Santiago. 
             </p>
@@ -113,7 +124,7 @@
                 <img src="imgs/logoanid.png" class="logos">
             </div>
             <div>
-                <img src="imgs/logomathamsud.png" class="logos">
+                <img src="imgs/ECOSsud.png" class="logos">
             </div> 
             <div>   
                 <img src="imgs/compositiologo.png" class="logos">
@@ -201,4 +212,32 @@
     
 </div>   
 </body>
+
+<script>
+window.onscroll = function() {scrollFunction()};
+var divToScroll = document.getElementsByClassName('divToScroll')[0],
+scrollPosition = divToScroll.scrollTop;
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20 ) {
+    document.getElementById("myTopnav").style.top = "0";  document.getElementById("myTopnav").style.background = "#333";
+  } else {
+    document.getElementById("myTopnav").style.top = "0";  document.getElementById("myTopnav").style.background = "#33333300";
+  }
+}
+
+
+
+function myFunction() {
+var x = document.getElementById("myTopnav");
+if (x.className === "topnav") {
+  x.className += " responsive";
+} else {
+  x.className = "topnav";
+}
+}
+
+   
+    </script>
+
+
 </html>
