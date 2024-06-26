@@ -370,7 +370,7 @@ footer p {
   }
 
   .about__container img {
-    max-width: 640px;
+    max-width: 380px;
   }
 
  
@@ -442,4 +442,18 @@ footer p {
 
 .about__content3 {
   grid-area: content3;
+}
+
+
+
+.schedule{
+  font-size: 1em;
+  padding: 10% 10%;
+}
+
+
+.highlight {
+ 
+  background-color: #0057aebd;
+  color: rgba(255, 255, 255, 0.97);
 }

@@ -67,6 +67,7 @@ p {
 .event {
     padding: 0px 0px 1.5rem;
     border-bottom: 3px solid #bbb;
+    
 }
 
 .tablink {
@@ -134,7 +135,10 @@ p {
 
 
 
-
+.city{
+  
+    padding: 35px 35px;
+}
 
 .logos {
     align-items: center;
