@@ -84,6 +84,7 @@ p {
     padding: 0;
     transition: all 0.15s;
     text-align: center;
+    margin-bottom: 5rem;
     
   }
   
@@ -93,9 +94,10 @@ p {
     padding: min(2vw, 15px);
     transition: all 0.15s;
     text-decoration: none;
-    font-size: xx-large;
+    font-size: x-large;
+    width: 13rem;
   }
-
+  
 
 
 
