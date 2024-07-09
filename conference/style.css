@@ -72,13 +72,38 @@ p {
 }
 
 .tablink {
-    width: 18%;
     display: inline-block;
+    padding: min(2vw, 15px);
+    transition: all 0.15s;
+    text-decoration: none;
+    font-size: x-large;
+    width: 8rem;
+    
 }
 
-.tabs {
+/* .tabs {
     text-align: center;
+    font-size: 2.5vw;
+} */
+
+
+/* .tabs {
+    margin: 0;
+    padding: 0;
+    transition: all 0.15s;
+    text-align: center;
+    margin-bottom: 5rem; 
 }
+
+
+.tabs a {
+    color: #365486;
+    padding: min(2vw, 15px);
+    text-decoration: none;
+    font-size: x-large;
+    width: 13rem;
+  } */
+
 
 .topnav {
     margin: 0;
@@ -188,8 +213,8 @@ margin-top: 5rem;
 
 .title {
     color: white;
-    text-shadow: 0 0 5px black;
-    font-size: 5rem; 
+    text-shadow: 0 0 15px black;
+    font-size: 4.4rem; 
 }
 
 .s1,
@@ -281,10 +306,10 @@ ul{
         
     
 
-.about{
-    text-align: center  
-}
 
+.schedule {
+    text-align: center   
+}
 
 
 
@@ -597,7 +622,12 @@ footer h2, footer p {
 
 
 
-
+.logos img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
 
 
 
