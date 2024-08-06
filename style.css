@@ -21,9 +21,10 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
+    height: 70%;
     transform-style: preserve-3d;
     z-index: -1;
+    margin: 20p;
 }
 
 .math-letters{
@@ -39,6 +40,7 @@ margin-top: 5rem;
     color: white;
     text-shadow: 0 0 5px black;
     font-size: 5rem; 
+    text-align: center;
 }
 
 .s1,
@@ -51,15 +53,10 @@ margin-top: 5rem;
     z-index: -1;
 }
 
-.s1{transform: translateZ(-5px) scale(1.5);
+/* .s1{transform: translateZ(-5px) scale(1.5);
 }
 .s2{transform: translateZ(-10px) scale(2);
-}
-
-
-
-
-
+} */
 
 
 section {
@@ -580,7 +577,7 @@ footer h2, footer p {
       place-items: center;
     }
     .about__container img {
-        max-width: 380px;
+        max-width: 270px;
         
     }
 
@@ -650,13 +647,9 @@ footer h2, footer p {
       max-width: 768px;
     }
     .about__container img {
-        max-width: 380px;
+        max-width: 300px;
         
     }
-
-   
-
-
 
     .speaker__container{
         max-width: 768px;
@@ -679,7 +672,7 @@ footer h2, footer p {
     }
 
     .about__container img {
-        max-width: 640px;
+        max-width: 380px;
         
     }
   
