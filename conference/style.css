@@ -103,9 +103,6 @@ header {
     font-style: italic;
 }
 
-.about__title{
-margin-top: 5rem;
-}
 
 .title {
     color: white;
@@ -500,7 +497,9 @@ footer h2, footer p {
   }
 
 
-
+ .about__title {
+    margin-top: 0;
+}
 
 
 
