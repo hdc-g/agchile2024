@@ -65,6 +65,10 @@ p {
 }
 
 .topnav {
+  background-color: #ffffff;
+  z-index: 6;
+  position: sticky;
+  top: 0;
   margin: 0;
   padding: 0;
   transition: all 0.15s;
@@ -81,6 +85,7 @@ p {
   text-decoration: none;
   font-size: x-large;
   width: 13rem;
+  
 }
 
 
