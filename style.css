@@ -69,28 +69,33 @@ section {
 
 
 
-.topnav {
-   margin: 0;
-   padding: 0;
 
+.topnav {
+    background-color: #ffffff;
+    z-index: 6;
+    position: sticky;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    transition: all 0.15s;
+    text-align: center;
+    margin-bottom: 5rem;
+    
   }
   
   .topnav a {
     display: inline-block;
     color: #365486;
-    padding: min(2vw, 15px) ; 
+    padding: min(2vw, 15px);
     transition: all 0.15s;
     text-decoration: none;
-    font-size: xx-large;
-
-
+    font-size: x-large;
+    width: 13rem;
+    
   }
   
-  .topnav a:hover {
-    background-color: #04AA6D;
-    color: #FFFFFF;
-    text-shadow: 0 0 2em rgba(255,255,255,1);
-  }
+  
+ 
   
 
   .topnav a.active {
@@ -181,6 +186,7 @@ ul{
 
 .about__description {
     margin-bottom: 5rem ;
+    text-align: center  
 }
 
 
