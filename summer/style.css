@@ -113,6 +113,9 @@ p {
   
 }
 
+.summary{
+  font-size: 0.4rem;
+}
 
 .organizador-nombre{
     text-align: center

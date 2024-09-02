@@ -131,12 +131,17 @@ ul{
 
 
 
-.logos {
-    height: 100%;
-    width: 100%;
+.logos1 {
+    height: 70%;
+    width: 70%;
     object-fit: cover;
 }
 
+.logos {
+    height: 90%;
+    width: 90%;
+    object-fit: cover; 
+}
 
 
 
