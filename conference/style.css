@@ -4,6 +4,93 @@
   
 }
 
+
+.highlight {
+ 
+    background-color: #0057aebd;
+    color: rgba(255, 255, 255, 0.97);
+  }
+
+table caption {
+    margin-bottom: 0.75em;
+  }
+  tbody {
+    margin-top: 0.5em;
+  }
+  
+  #TOC li {
+    list-style: none;
+  }
+  #TOC ul {
+    padding-left: 1.3em;
+  }
+  #TOC > ul {
+    padding-left: 0;
+  }
+  #TOC a:not(:hover) {
+    text-decoration: none;
+  }
+  code {
+    white-space: pre-wrap;
+  }
+  span.smallcaps {
+    font-variant: small-caps;
+  }
+  span.underline {
+    text-decoration: underline;
+  }
+  div.column {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+  }
+  div.hanging-indent {
+    margin-left: 1.5em;
+    text-indent: -1.5em;
+  }
+  
+  
+  .row {
+    display: flex;
+    margin-left: -5px;
+    margin-right: -5px;
+  }
+  
+  .column {
+    flex: 50%;
+    padding: 5px;
+  }
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+  
+  th,
+  td {
+    text-align: left;
+    padding: 3px;
+    border: 1px solid #dee2e6;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  th{
+    border-bottom: 4px solid #bbb;
+  
+  }
+
+
+
+  .table{
+    font-size: 0.7em;
+    padding-bottom: 10rem;
+  }
+  
+
+
 .s1
  {
     position: absolute;
@@ -26,6 +113,7 @@ li, ul {
 
 p {
     text-align: justify;
+    margin-bottom: 4rem;
 }
 
 
@@ -312,9 +400,9 @@ footer h2, footer p {
         max-width:  375px;
         
     }
-    
-    
+  
    
+
 
   }
 
@@ -335,9 +423,9 @@ footer h2, footer p {
 
 
 
-
-
-
+    .table{
+        overflow: auto;
+    }
     
   }
   
@@ -382,7 +470,11 @@ footer h2, footer p {
     }
 
     
-  
+    .table{
+        overflow: hidden;
+    }
+     
+        
 
     
     
@@ -435,8 +527,9 @@ footer h2, footer p {
         
     }
   
-    .section {
-      margin-top: 5rem;
+    section{
+        padding-left: 10%;
+        padding-right: 10%;
     }
 
 
@@ -465,7 +558,7 @@ footer h2, footer p {
         max-width: 768px;
     }
 
-    
+ 
  
 
   }
@@ -496,7 +589,10 @@ footer h2, footer p {
         max-width: 640px;
         
     }
-
+section{
+    padding-left: 20%;
+    padding-right: 20%;
+}
 
   }
 

@@ -48,6 +48,7 @@ ul {
 
 p {
   text-align: justify;
+  margin-bottom: 4rem;
 }
 
 .event {
@@ -330,12 +331,14 @@ footer p {
     "image4  image4"  
     "content3 image3"
     "image1 content1"
-    "content2 image2"
-    
-      
-      ;
+    "content2 image2";
     place-items: center;
   }
+
+.about__container div{
+padding-bottom:  5rem;
+}
+
   .about__container img {
     max-width: 270px;}
   
@@ -377,6 +380,10 @@ footer p {
   }
 
  
+  section{
+    padding-left: 10%;
+    padding-right: 10%;
+}
 
   
   .organizador-container {
@@ -406,6 +413,12 @@ footer p {
   .about__container {
     max-width: 952px;
 }
+
+section{
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
   .about__container img {
     max-width: 380px;
     
@@ -454,7 +467,7 @@ a {
   color: #006580;
 }
 
-code {
+/* code {
   font-family: Menlo, Monaco,
     'Lucida Console', Consolas, monospace;
   font-size: 85%;
@@ -478,7 +491,7 @@ hr {
   border: none;
   height: 1px;
   margin: 1em 0;
-}
+} */
 
 table caption {
   margin-bottom: 0.75em;
@@ -531,11 +544,20 @@ div.hanging-indent {
 }
 
 table {
+  font-size: 1em;
+  padding: 10% 10%;
   border-collapse: collapse;
   border-spacing: 0;
   width: 100%;
   border: 1px solid #ddd;
 }
+
+
+.table{
+  font-size: 0.7em;
+  padding-bottom: 10rem;
+}
+
 
 th,
 td {
