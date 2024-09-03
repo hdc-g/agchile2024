@@ -407,13 +407,14 @@ padding-bottom:  5rem;
   .about__container img {
     max-width: 380px;
   }
-
- 
   section{
-    padding-left: 10%;
-    padding-right: 10%;
-}
-
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    width: 952px;
+  }
+ 
+ 
   
   .organizador-container {
     max-width: 1024px;
@@ -443,10 +444,7 @@ padding-bottom:  5rem;
     max-width: 952px;
 }
 
-section{
-  padding-left: 20%;
-  padding-right: 20%;
-}
+
 
   .about__container img {
     max-width: 380px;

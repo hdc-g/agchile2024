@@ -127,7 +127,15 @@ ul{
     animation-range: entry 50% cover 50%;
 }
 
+.about__program{
+    width: 50%; 
+    margin: auto; 
+    text-align: left;
+}
 
+.about__program li{
+    margin-bottom: 10px;
+}
 
 .logos1 {
     height: 70%;
@@ -140,7 +148,11 @@ ul{
     width: 90%;
     object-fit: cover; 
 }
-
+.logos3 {
+    height: 50%;
+    width: 50%;
+    object-fit: cover;
+}
 
 
 @keyframes fade {
@@ -676,8 +688,15 @@ footer h2, footer p {
   
   /* lg */
   @media (min-width: 1024px) {
+
+    section{
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+        width: 952px;
+      }
     .about__container {
-      max-width: 952px;
+      max-width: 970px;
     }
 
     .about__container img {
@@ -689,10 +708,7 @@ footer h2, footer p {
       margin-top: 10rem;
     }
 
-    section{
-        padding-left: 10%;
-        padding-right: 10%;
-    }
+    
     .speaker__container{
         max-width: 1024px;
         display: grid;
@@ -743,11 +759,7 @@ footer h2, footer p {
         
     }
 
-    section{
-        padding-left: 20%;
-        padding-right: 20%;
-      }
-
+  
   }
 
 

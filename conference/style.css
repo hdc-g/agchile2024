@@ -523,7 +523,12 @@ footer h2, footer p {
     .about__container {
       max-width: 1024px;
     }
-
+    section{
+      position: relative;
+      left: 50%;
+      transform: translate(-50%);
+      width: 952px;
+    }
     .about__container img {
         max-width: 640px;
         
