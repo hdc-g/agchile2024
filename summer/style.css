@@ -2,6 +2,13 @@
   margin: 0;
 }
 
+
+h6 {font-style: italic;
+  font-weight: initial;
+}
+
+
+
 body {
   line-height: 1.5;
   font-family: sans-serif;
@@ -277,6 +284,9 @@ footer p {
   text-align: center;
 }
 
+footer p{
+  margin-bottom: 0px;
+}
 
 /* xss */
 
@@ -571,10 +581,7 @@ td {
   text-align: center;
 }
 
-th{
-  border-bottom: 4px solid #bbb;
 
-}
 /* tr {
   border-bottom: 2px solid #ddd;
 }

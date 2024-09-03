@@ -32,9 +32,7 @@ header {
     font-style: italic;
 }
 
-.about__title{
-margin-top: 5rem;
-}
+
 
 .title {
     color: white;
@@ -691,7 +689,10 @@ footer h2, footer p {
       margin-top: 10rem;
     }
 
-
+    section{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
     .speaker__container{
         max-width: 1024px;
         display: grid;
@@ -741,6 +742,12 @@ footer h2, footer p {
         max-width: 380px;
         
     }
+
+    section{
+        padding-left: 20%;
+        padding-right: 20%;
+      }
+
   }
 
 
