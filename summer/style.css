@@ -95,7 +95,22 @@ p {
   width: 13rem;
   
 }
+details{
+  display: inline;
+}
+details > summary {
+  padding: 0;
+  border: none;
 
+}
+
+details > p {
+  background-color: #eeeeee;
+  padding: 4px;
+  margin: 0;
+  box-shadow: 1px 1px 2px #bbbbbb;
+  
+}
 
 .sponsors-container {
     position: relative;
@@ -120,8 +135,9 @@ p {
   
 }
 
-.summary{
-  font-size: 0.4rem;
+.about__summary{
+  font-size: 1.15rem;
+  margin-bottom: 0px;
 }
 
 .organizador-nombre{
