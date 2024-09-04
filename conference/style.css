@@ -372,8 +372,6 @@ footer h2, footer p {
 
 
 
-
-
 /* xss */
 
 @media (min-width: 375px) {
@@ -527,7 +525,7 @@ footer h2, footer p {
       position: relative;
       left: 50%;
       transform: translate(-50%);
-      width: 952px;
+      width: 970px;
     }
     .about__container img {
         max-width: 640px;
@@ -607,6 +605,11 @@ section{
  .about__title {
     margin-top: 0;
 }
+
+.about__description p {
+  text-align: left;
+}
+
 
 
 

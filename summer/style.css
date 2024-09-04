@@ -341,7 +341,7 @@ footer p{
   }
   .about__container img {
     max-width: 300px;
-    padding: 1rem;
+    padding-bottom: 5rem;
   }
 
   .sponsors-container img {
@@ -357,10 +357,10 @@ footer p{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
-    "image4  image4"  
-    "content3 image3"
     "image1 content1"
-    "content2 image2";
+    "content2 image2"
+    "image4  image4"  
+    "content3 image3";
     place-items: center;
   }
 
@@ -411,7 +411,7 @@ padding-bottom:  5rem;
     position: relative;
     left: 50%;
     transform: translate(-50%);
-    width: 952px;
+    width: 970px;
   }
  
  
