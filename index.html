@@ -73,6 +73,8 @@
             </div>
         </section>
 
+       
+
         <section class="mapa container section">
             <div class="mapamundo">
                 <p class="mundotexto">Researcher form <b>all over the world</b> will gather in Santiago. They will present their recent advances in mathematics.
@@ -84,9 +86,58 @@
                     <div class="pin usa"><span>USA</span></div>
                     <div class="pin canada"><span>Canada</span></div>
             </div>
+        
+        
+        
+        
         </section>
 
+
         <section>
+            <h2 class="about__title">Local information</h2>
+           
+
+
+            <div class="about__container">
+                <!--Sobre Langlands-->
+                <div class="slideshow-container">
+                    <div class="mySlides fade"><img src="imgs/Sanhathan.jpeg" class="about__image1"></div>
+                    <div class="mySlides fade"><img src="imgs/Santa.jpeg" class="about__image1"></div>
+                    <div class="mySlides fade"><img src="imgs/MURALES-BARRIO-FRANKLIN-1.jpeg" class="about__image1"></div>
+                    <div class="mySlides fade"><img src="imgs/santiago-teleferico.jpeg" class="about__image1"></div>
+                    <div class="mySlides fade"><img src="imgs/wine.jpeg" class="about__image1"></div>
+                    <a class="prev" onclick="plusSlides(-1)">❮</a>
+                    <a class="next" onclick="plusSlides(1)">❯</a>
+                </div>
+                
+                <div class="about__content1">
+                    <p class="about__description about__venue">
+                        Santiago is a vibrant city that blends the classical with the modern. 
+                        It boasts a vast urban park and offers breathtaking views of the Andes Mountains. 
+                        This combination makes Santiago an ideal location for fostering new ideas and conducting research. The city's modern and well-connected public 
+                        transportation system provides easy access to a plethora of interesting locations, ensuring an  enjoyable stay.  </p>
+                </div>
+                <div class="slideshow-container">
+                    <div class="mySlides1 fade"><img src="imgs/Entrada.jpeg" class="about__image2"></div>
+                    <div class="mySlides1 fade"><img src="imgs/Audi.jpeg" class="about__image2"></div>
+                    <div class="mySlides1 fade"><img src="imgs/SalaEstudio.jpeg" class="about__image2"></div>
+                    <a class="prev" onclick="plusSlides1(-1)">❮</a>
+                    <a class="next" onclick="plusSlides1(1)">❯</a>
+
+                </div>
+                
+                <div class="about__content2">
+                    <p class="about__description about__venue">
+                        The conference will be held at the Centro de 
+                        Estudios de Postgrado y Educación Continua of the Universidad de Santiago de Chile. 
+                        It is a center of the university that provides modern space for 
+                        teaching and research. The facility is located in a very modern area of Santiago, colloquially known as Santhann (ablend of Santiago and Manhattan).  </div>
+        </section>
+
+
+
+
+        <section> 
         <h2>Sponsors</h2>
         <div class="sponsors-container">
             <div>
@@ -98,8 +149,6 @@
             <div>
                 <img src="imgs/ECOSsud.png" class="logos1">
             </div> 
-           
-           
         </div>
 
 
@@ -214,7 +263,55 @@ if (x.className === "topnav") {
 }
 }
 
+ </script>
+
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slides[slideIndex-1].style.display = "block";  
+}
+
+
+
+let slideIndex1 = 1;
+showSlides1(slideIndex1);
+
+function plusSlides1(n) {
+  showSlides1(slideIndex1 += n);
+}
+
+
+
+function showSlides1(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides1");
+  if (n > slides.length) {slideIndex1 = 1}    
+  if (n < 1) {slideIndex1 = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slides[slideIndex1-1].style.display = "block";  
+}
    
+  
+
+    
     </script>
 
 
