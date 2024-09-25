@@ -149,8 +149,8 @@ ul{
     object-fit: cover; 
 }
 .logos3 {
-    height: 50%;
-    width: 50%;
+    height: 60%;
+    width: 60%;
     object-fit: cover;
 }
 
@@ -388,7 +388,7 @@ ul{
     height: 100%;
     transform: scale(0.7);
     flex: 1;
-    min-width: 250px;
+    min-width: 240px;
    
     /* border: 1px solid red; */
   
