@@ -450,9 +450,13 @@ ul{
     flex: 1;
     min-width: 250px;
     max-width: 250px;
+   
     
 }
 
+.organizador-container ul {
+    padding-top: 2rem;
+}
 .organizador-container h3 {
     color: #365486;
 }
