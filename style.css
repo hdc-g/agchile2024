@@ -442,21 +442,35 @@ ul{
     justify-content: space-evenly;
     /* border: 1px solid red; */
     left: 50%;
-    
-
-
 }
+
 .organizador-container div{
     font-size: 1.5rem;
     /* border: 1px solid red; */
     flex: 1;
     min-width: 250px;
     max-width: 250px;
+    
+}
+
+.organizador-container h3 {
+    color: #365486;
+}
+
+.organizador-container a {
+    font-weight: bold;
 }
 
 
 
+a:link {
+    text-decoration: none;
+    border-bottom: 1px solid #003399;
+  }
 
+  a:hover {
+    color: #365486;
+  }
 
 footer {
     background-color: #365486;
@@ -613,6 +627,17 @@ footer h2, footer p {
       place-items: center;
     }
 
+    .organizador-container{
+        max-width: 640px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+        'comite local';
+       
+      }
+
+
+  
 
     .speaker__container img {
         max-width: 300px;
