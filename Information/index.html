@@ -4,6 +4,7 @@
     <link rel="icon" href="../imgs/logo.png">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/aaaakshat/cm-web-fonts@latest/fonts.css">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arithmetic and p-adic geometry in Chile</title>
@@ -18,7 +19,7 @@
    
     <header>
             <img src="../imgs/mapastgo.jpg" class="s1">
-            <h1 style="word-wrap:break-word" class="title">Practical information</h1>
+            <h1 class="title">Practical information</h1>
         
         </header>
 
@@ -30,8 +31,23 @@
             <a class="w3-bottombar w3-hover-border-blue" href="../Information/index.html" >Information</a>
             <a class="w3-bottombar w3-hover-border-blue" href="https://forms.gle/rYm8V9encBeknawD8" >Registration</a>
           </div>
+          
+          
+          <div class="topnav" id="topmobile">
+            <a href="javascript:void(0);" class="icon" onclick="myFunction1()">
+              <i class="fa fa-bars"></i>
+            </a>
+            <div id="myLinks">
+              <a class="w3-bottombar w3-hover-border-blue" href="../index.html" >About</a>
+              <a class="w3-bottombar w3-hover-border-blue" href="../summer/index.html" >Summer School</a>
+              <a class="w3-bottombar w3-hover-border-blue" href="../conference/index.html" >Conference</a>
+              <a class="w3-bottombar w3-hover-border-blue" href="../Information/index.html" >Information</a>
+              <a class="w3-bottombar w3-hover-border-blue" href="https://forms.gle/rYm8V9encBeknawD8" >Registration</a>
+            </div>
+          
+          </div>
 
-    
+
 
 <section>
 
@@ -115,7 +131,7 @@
   <h2 class="about__title">Venue</h2>
 <div class="speaker__container">
   <div class="content"> <p>The conference will be held at the Centro de 
-    Estudios de Postgrado y Educación Continua of the Universidad de Santiago de Chile. Located at <b>Cruz del Sur  77, Las Condes</b>. To get there take the metro line 1 until <b>Metro Escuela Militar</b>, then take the exit (salida) <em>C, Av. Apoquindo Sur / Félix De Amesti</em>.</p></div>
+    Estudios de Postgrado y Educación Continua (<b>CEPEC</b>) of the Universidad de Santiago de Chile. Located at <b>Cruz del Sur  77, Las Condes</b>. To get there take the metro line 1 until <b>Metro Escuela Militar</b>, then take the exit (salida) <em>C, Av. Apoquindo Sur / Félix De Amesti</em>.</p></div>
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2800.4699427559476!2d-70.58556951178527!3d-33.414410903500546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cf1861062a03%3A0x8dd7b30fde0beab!2sCruz%20del%20Sur%2077%2C%207580151%20Las%20Condes%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses!2scl!4v1731501203472!5m2!1ses!2scl" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="image"></iframe>
 </div>
 <img style="width: 100%;" src="../imgs/venue.png" class="image"></img>
@@ -131,7 +147,7 @@
       <button class="tablinks2" onclick="openCity2(event, 'Lima')"id="defaultOpen2">From the Airport to Santiago</button>
       <button class="tablinks2" onclick="openCity2(event, 'NewYork')"  style="word-wrap:break-word">Public transportation</button>
       <button class="tablinks2" onclick="openCity2(event, 'Berlin')">The Weather in Santiago</button>
-      <button class="tablinks2" onclick="openCity2(event, 'Sydney')">Currency Exchange</button>
+      <button class="tablinks2" onclick="openCity2(event, 'Sydney')">Currency</button>
       
     </div>
   
@@ -186,6 +202,8 @@
       <h5>ATM and Currency Exchange</h5>
     <p>There are ATM machines (Redbanc) all over the city, including the airport. You can exchange money at the airport, in banks, or at Casas de Cambio (currency exchange offices). Note that Casas de Cambio generally have better rates than banks. Banks are usually open from 9:00 to 14:00. The Casas de Cambio are usually open from 9:30 to 18:00. For currency conversions, please visit <a href="https://www.xe.com/currencyconverter/" target="_blank">XE Currency Converter</a>.</p>
     <p>Note that if you want to cash a cheque you will be asked to show your passport. In order to cash a Chilean cheque, you need to sign vertically across the front side of the cheque and write your passport number on the reverse side.</p>
+    <b>Credit or Debit dilemma</b>
+    <p>Most of the shops in Santiago will accept payment by card and they would usually ask: "Debito o Credito" (Debit or Credit).</p>
     </div>
     
   </div>
@@ -431,7 +449,17 @@ function showSlides2(n) {
 
 
 
-
+<script>
+  function myFunction1() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+  </script>
+  
 
 
 

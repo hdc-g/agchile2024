@@ -104,8 +104,21 @@ section {
  
 
 
-
-
+  .topnav #myLinks {
+    display: none;
+  }
+  .topnav a.icon {
+    width: 100%;
+    background: white;
+    display: block;
+    position: relative;
+    right: 0;
+    top: 0;
+  }
+  .active {
+    background-color: #04AA6D;
+    color: white;
+  }
 
 
 h2{ margin-bottom: 4rem;
@@ -589,6 +602,13 @@ iframe {
 /* xss */
 
 @media (min-width: 375px) {
+
+    .title{
+        font-size: 3rem;
+    }
+    #myTopnav{
+        display: none;
+    }
     .about__container {
       max-width: 375px;
     }
@@ -697,6 +717,10 @@ iframe {
   
   /* sm */
   @media (min-width: 640px) {
+    .title{
+        font-size: 5rem; ;
+    }
+    
     .about__container {
       max-width: 640px;
       display: grid;
@@ -730,7 +754,12 @@ iframe {
        
       }
 
-
+#topmobile {
+display: none;
+}
+#myTopnav{
+    display: block;
+}
   
 
     .speaker__container img {
