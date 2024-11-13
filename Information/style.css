@@ -476,18 +476,7 @@ a:link {
     color: #365486;
   }
 
-footer {
-    background-color: #365486;
-    height: 400px;
-    width: 100%;
-}
 
-footer h2, footer p {
-    animation:none;
-    color: white;
-    text-shadow: 0 0 5px black;
-    text-align: center;
-}
 
 
 /* Flex container for two sets of tabs */
@@ -532,17 +521,25 @@ footer h2, footer p {
   }
   
   /* Style the tab content */
-  .tabcontent {
-    padding: 0px 12px;
+  .tabcontent2 {
+    padding: 0px 20px;
     border: 1px solid #ccc;
     width: 70%;
-    border-left: none;
-    height: 300px;
+    border: none;
     display: none; /* Hide all tab content by default */
   }
 
-.acco h3, li, details, p, b { 
-    font-size: medium;   
+.acco p,h3,li,details,b { 
+    font-size: 1.1rem;   
+    position: relative;
+    
+}
+.acco p{
+    width: 100%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+
 }
 .acco details{
     padding-bottom: 1rem;
@@ -551,15 +548,35 @@ footer h2, footer p {
 
 
 
-.arr p {
+
+
+
+.get img{
     max-width: 600px;
-}
-.arr h3{
-    padding-top: 3rem;
 }
 
-.get img, p {
-    max-width: 600px;
+.get h5{
+    color: #365486;
+}
+.get p{
+    font-size: 1.2rem; 
+}
+
+
+.stgo p{
+    font-size: 1.1rem; 
+}
+
+.stgo h5{
+    color: #365486;
+}
+
+.ven p{
+    font-size: 1.2rem; 
+}
+
+.ven img{
+    padding-top: 2rem;
 }
 
 
@@ -700,9 +717,7 @@ iframe {
       display: grid;
       grid-template-columns: 1fr 1fr;
       grid-template-areas:
-      'foto1 foto2'
-      'content1 content2'
-      'foto3 content3';
+      'content image';
       place-items: center;
     }
 
@@ -781,9 +796,7 @@ iframe {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-areas:
-        'foto1 foto2'
-        'content1 content2'
-        'foto3 content3';
+        'content image';
         place-items: center;
       }
 
@@ -816,9 +829,7 @@ iframe {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-areas:
-        'foto1 foto2'
-        'content1 content2'
-        'foto3 content3';
+        'content image';
         place-items: center;
       }
     
@@ -935,3 +946,19 @@ iframe {
     from {opacity: .4} 
     to {opacity: 1}
   }
+  footer {
+    background-color: #365486;
+    height: 400px;
+    width: 100%;
+}
+
+footer h2, footer p {
+    animation:none;
+    color: white;
+    text-shadow: 0 0 5px black;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    
+}
