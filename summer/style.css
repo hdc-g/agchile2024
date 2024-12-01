@@ -95,6 +95,24 @@ p {
   width: 13rem;
   
 }
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a.icon {
+  width: 100%;
+  background: white;
+  display: block;
+  position: relative;
+  right: 0;
+  top: 0;
+}
+
+
+
+
+
 details{
   display: inline;
 }
@@ -329,7 +347,9 @@ footer p{
   .table{
     overflow: auto;
    } 
-
+   #myTopnav{
+    display: none;
+}
 
 
 }
@@ -384,7 +404,15 @@ padding-bottom:  5rem;
   .table{
     overflow: hidden;
    } 
-}
+
+   #topmobile {
+    display: none;
+    }
+    #myTopnav{
+        display: block;
+    }
+  
+  }
 
 /* md */
 @media (min-width: 768px) {
@@ -737,3 +765,5 @@ transition: opacity 1s;
   margin-right: auto;
   width: 100%;
 }
+
+
