@@ -17,7 +17,7 @@
     <meta name="generator" content="plasTeX" />
     <link rel="stylesheet" href="styles/theme-white.css" />
     <link rel="stylesheet" href="styles/amsthm.css" />
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" href="../imgs/logo.png">
     <link rel="stylesheet" href="../w3.css" />
     <link rel="stylesheet" href="style.css" />
@@ -161,6 +161,27 @@
       <a class="w3-bottombar w3-hover-border-blue" href="../Information/index.html" >Information</a>
       <a class="w3-bottombar w3-hover-border-blue" href="https://forms.gle/rYm8V9encBeknawD8" >Registration</a>
     </div>
+
+    <div class="topnav" id="topmobile">
+      <a href="javascript:void(0);" class="icon" onclick="myFunction1()">
+        <i class="fa fa-bars"></i>
+      </a>
+      <div id="myLinks">
+        <a class="w3-bottombar w3-hover-border-blue" href="../index.html" >About</a>
+        <a class="w3-bottombar w3-hover-border-blue" href="../summer/index.html" >Summer School</a>
+        <a class="w3-bottombar w3-hover-border-blue" href="../conference/index.html" >Conference</a>
+        <a class="w3-bottombar w3-hover-border-blue" href="../Information/index.html" >Information</a>
+        <a class="w3-bottombar w3-hover-border-blue" href="https://forms.gle/rYm8V9encBeknawD8" >Registration</a>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
 
     <section class="speaker">
     <h2 class="about__title">About</h2>
@@ -768,6 +789,18 @@
     });
   }
 </script>
+
+
+<script>
+  function myFunction1() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+  </script>
 </html>
 
 <!--[if lt IE 9]>

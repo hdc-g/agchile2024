@@ -121,7 +121,10 @@ p {
 
 
 
-
+a:link {
+  text-decoration: none;
+  border-bottom: 1px solid #003399;
+}
 
   /* barra de navegacion */
 
@@ -149,7 +152,14 @@ p {
   }
   
 
-
+  .topnav a.icon {
+    width: 100%;
+    background: white;
+    display: block;
+    position: relative;
+    right: 0;
+    top: 0;
+  }
 
 
 
@@ -323,6 +333,10 @@ footer h2, footer p {
 
 
 
+.topnav #myLinks {
+  display: none;
+}
+
 
 
 
@@ -394,7 +408,8 @@ footer h2, footer p {
     }
 
   
-
+    #myTopnav{
+      display: none;}
 
 
     .sponsors-container img {
@@ -402,7 +417,10 @@ footer h2, footer p {
         
     }
   
-   
+    .table{
+      overflow-x: scroll;
+  }
+  
 
 
   }
@@ -422,10 +440,12 @@ footer h2, footer p {
         
     }
 
-
+    #myTopnav{
+      display: none;
+  }
 
     .table{
-        overflow: auto;
+        overflow-x: scroll;
     }
     
   }
@@ -477,7 +497,12 @@ footer h2, footer p {
      
         
 
-    
+    #topmobile {
+      display: none;
+      }
+      #myTopnav{
+        display: block;
+    }
     
   }
   
