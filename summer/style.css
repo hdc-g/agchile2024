@@ -414,7 +414,9 @@ padding-bottom:  5rem;
    #topmobile {
     display: none;
     }
-   
+    #myTopnav{
+      display: block;
+  }
 
     .speaker__container{
       max-width: 780px;
