@@ -114,6 +114,7 @@ li, ul {
 
 
 
+
 p {
     text-align: justify;
     margin-bottom: 4rem;
@@ -207,6 +208,54 @@ header {
     font-family: "Computer Modern";
     font-style: italic;
 }
+
+.slideshow-container {
+    position: relative;
+}
+
+.img_conference{
+  place-items: center;
+  display: grid;
+}
+.img_conference img{
+display: grid;
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
 
 
 .title {
@@ -421,7 +470,9 @@ footer h2, footer p {
       overflow-x: scroll;
   }
   
-
+  .img_conference img{
+    max-width: 360px;
+  }
 
   }
 
@@ -503,6 +554,11 @@ footer h2, footer p {
       #myTopnav{
         display: block;
     }
+
+
+    .img_conference img{
+      max-width: 600px;
+    }
     
   }
   
@@ -537,7 +593,9 @@ footer h2, footer p {
       }
 
   
-
+      .img_conference img{
+        max-width: 740px;
+      }
  
     
   }
@@ -589,7 +647,9 @@ footer h2, footer p {
         max-width: 768px;
     }
 
- 
+    .img_conference img{
+        max-width: 900px;
+      }
  
 
   }
